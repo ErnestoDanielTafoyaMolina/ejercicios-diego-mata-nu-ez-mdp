@@ -2,9 +2,9 @@ Algoritmo NumerosPerfectos
     Definir contador, sumaDivisores, num, candidato Como Entero
     
     contador <- 1
+    candidato <- 1
     
     Mientras contador <= 3 Hacer
-        candidato <- 1
         sumaDivisores <- 0
         
         Para i <- 1 Hasta (candidato / 2) Hacer
